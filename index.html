@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1).<script>
+        class Rectangle {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+
+  calcArea() {
+    return this.height * this.width;
+  }
+}
+
+const rectangle = new Rectangle(12, 13);
+const area = rectangle.calcArea();
+console.log(area); 
+
+    </script> -->
+
+
+    <!-- 2).<script>
+        class Cat {
+    constructor(name) {
+        this.name = name;
+    }
+
+    speak() {
+        console.log(`${this.name} makes a noise.`);
+    }
+    }
+
+    class Lion extends Cat {
+    constructor(name) {
+        super(name);
+    }
+
+    speak() {
+        super.speak();
+        console.log(`${this.name} roars itself.`);
+    }
+    }
+
+    const lion = new Lion("Simba");
+    lion.speak();
+
+    </script> -->
+
+
+
+    <!-- 3).<script>
+        class Card {
+  constructor(title, description) {
+    this.title = title;
+    this.description = description;
+  }
+
+  createCardElement() {
+    const cardElement = document.createElement("div");
+    cardElement.classList.add("card");
+
+    const titleElement = document.createElement("h2");
+    titleElement.textContent = this.title;
+
+    const descriptionElement = document.createElement("p");
+    descriptionElement.textContent = this.description;
+
+    cardElement.appendChild(titleElement);
+    cardElement.appendChild(descriptionElement);
+
+    return cardElement;
+  }
+}
+
+const myCard = new Card("Sample Card", "This is a sample card element");
+
+const cardElement = myCard.createCardElement();
+document.body.appendChild(cardElement);
+
+    </script> -->
+</body>
+</html>
